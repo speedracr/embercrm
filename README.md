@@ -1,24 +1,14 @@
-# README
+# EmberCRM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Notes on starting
+* buy the full course at
+  https://tutsplus.com/purchase_sign_up/courses/create-a-full-stack-rails-and-ember-app
+  it's worth it
 
-Things you may want to cover:
+* we're using a `RootController` to manage our root page, which is cool.
+  For now, it's just `render json: {}`.
 
-* Ruby version
+* `ActiveModelSerializers` and jsonAPI don't get along, apparently. So
+  we're adding an initializer with
+  `ActiveModelSerializers.config.key_transform = :dashed`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
