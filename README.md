@@ -12,3 +12,4 @@
   we're adding an initializer with
   `ActiveModelSerializers.config.key_transform = :dashed`
 
+## TODO: Update contacts controller to add associations on requests
